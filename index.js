@@ -6,7 +6,7 @@ const app = express()
 app.use(cors())
 
 
-const Person = require('./models/Todo')
+const Todo = require('./models/Todo')
 
 //leitura de JSON / middlewares
 app.use(
